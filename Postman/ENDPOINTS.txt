@@ -1,0 +1,12 @@
+Crear Ticket: localhost:58001/api/v1/ticket // POST
+-- A partir de aca todos con X-Auth-Token obtenido en el POST del ticket
+-- Por las dudas poner Content-Type application/json para que funcione bien
+
+Obtener ISP: localhost:58001/api/v1/network-device/ip-address/200.10.20.2 // GET
+Eliminar ISP: localhost:58001/api/v1/network-device/FDO13028103-uuid //DELETE
+Obtener Usuarios: localhost:58001/api/v1/user // GET
+Crear Usuario: localhost:58001/api/v1/user // POST
+Actualizar Usuario: localhost:58001/api/v1/user // PUT
+Eliminar Usuario: localhost:58001/api/v1/user/Postman // DELETE
+Eliminar ND: localhost:58001/api/v1/network-device/ip-address/10.255.255.5 // DELETE
+Agregar ND: localhost:58001/api/v1/network-device // POST
